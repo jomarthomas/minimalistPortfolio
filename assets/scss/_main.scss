@@ -1,0 +1,14 @@
+img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+#grid {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+

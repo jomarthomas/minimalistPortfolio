@@ -1,0 +1,47 @@
+body {
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem;
+
+    a {
+        text-decoration: none !important;
+        color: #818181;
+    }
+  }
+
+  li i {
+    padding-right: 10px;
+  }
+
+  .fa-envelope {
+      padding: 0;
+  }
+
+a span {
+    display: none;
+}
+
+#sub-menu .fa-envelope {
+    padding-right: 10px;
+}
+
+#modal img {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  display: block;
+}
+
+  @media all and (min-width: 520px) { 
+      body {
+        padding: 4rem;
+      }
+
+      a span {
+        display: inline;
+    }
+
+    .fa-envelope {
+        padding-right: 10px;
+    }
+  }

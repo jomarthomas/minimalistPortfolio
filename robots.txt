@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://jomarthomas.com/sitemap.xml

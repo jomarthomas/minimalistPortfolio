@@ -1,0 +1,80 @@
+#exampleModalLong h1 {
+    line-height: 1.2em;
+    text-transform: none;
+    letter-spacing: .01em;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  #exampleModalLong button span {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  .fade {
+    background: #fffffff5;
+  }
+
+  .modal-content {
+    border: 0;
+    background-color: initial;
+  }
+
+  .modal.fade h3,
+.modal.fade h5,
+.modal.fade span,
+.modal.fade p,
+.modal.fade ul li {
+  color: #000000;
+  line-height: 2em;
+  text-transform: none;
+  letter-spacing: .04em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.modal.fade ul {
+  margin-bottom: 2.5rem;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.modal.fade p {
+  font-size: 1rem;
+}
+
+#social-modal-footer {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+#social-modal-footer a {
+  text-decoration: none;
+  color: #818181;
+}
+
+@media all and (min-width: 520px) {
+  .modal.fade p {
+    font-size: 2rem;
+  }
+    #social-modal-footer {
+      padding: 0;
+      }
+}
+
+@media all and (min-width: 576px) {
+    .modal-dialog {
+      max-width: 65%;
+    }
+  }
